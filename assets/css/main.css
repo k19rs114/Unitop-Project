@@ -1,24 +1,26 @@
-body{
-    font-family:'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.15;
-    
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0px auto;
     display: flex;
 }
-ul{
-    list-style:none;
+
+ul {
+    list-style: none;
     padding: 0px;
 }
 
-#header{
+#header {
     background-color: #23282d;
     padding-top: 20px;
 }
-#header form input{
+
+#header form input {
     height: 42px;
     width: 247px;
     background-color: #131619;
@@ -27,13 +29,13 @@ ul{
     font-size: 14px;
     color: #6b6c6d;
     outline: none;
-  
-    
 }
-#search{
-    position: relative; 
+
+#search {
+    position: relative;
 }
-#search button{
+
+#search button {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -42,38 +44,44 @@ ul{
     border: none;
     color: #6b6c6d;
 }
-#main-menu li{
-   padding-top: 10px;
-   display: block;
+
+#main-menu li {
+    padding-top: 12px;
+    display: block;
 }
-#main-menu li a{
+
+#main-menu li a {
     text-decoration: none;
     color: #c8c9ca;
     font-weight: 600;
     font-size: 16px;
     padding-right: 47px;
-    
 }
-nav{
-   flex: 100%;
-   margin-bottom: 10px;
-   border-right: red 10px solid;
-   margin-top: 10px;
+
+nav {
+    flex: 100%;
+    margin-bottom: 10px;
+    border-right: red 10px solid;
+    margin-top: 10px;
 }
-ul#main-menu{
+
+ul#main-menu {
     margin-bottom: 5px;
 }
-#main-menu li a:hover{
+
+#main-menu li a:hover {
     color: #4db2ec;
 }
-#main-menu li:last-child a{
+
+#main-menu li:last-child a {
     margin-right: 260px;
 }
 
-#header{
+#header {
     margin-bottom: 35px;
 }
-.box .box-head h3{
+
+.box .box-head h3 {
     display: inline-block;
     background-color: #23282d;
     font-weight: 600;
@@ -82,41 +90,48 @@ ul#main-menu{
     width: 97px;
     height: 30px;
     font-size: 16px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
-.box .box-body{
+
+.box .box-body {
     margin-top: 20px;
 }
-.list-featured-post li{
+
+.list-featured-post li {
     padding-right: 30px;
     flex: 360px 0 1;
-    
 }
-.list-featured-post{
+
+.list-featured-post {
     margin-bottom: 30px;
 }
-.thumb-title{
-    display:inline-block;
+
+.thumb-title {
+    display: inline-block;
     margin-top: 20px;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
     color: #5f5f5f;
 }
-.feature-post .box-body{
+
+.feature-post .box-body {
     border-bottom: 1px solid #dadada;
     margin-bottom: 20px;
 }
-#content{
+
+#content {
     flex: 750px;
     padding-right: 15px;
 }
-#sidebar{
+
+#sidebar {
     flex: 360px;
     padding-left: 15px;
 }
-.box.new-post .box-head h3{
+
+.box.new-post .box-head h3 {
     background: green;
     width: 128px;
     height: 28px;
@@ -124,49 +139,61 @@ ul#main-menu{
     padding-right: 12px;
     background-color: #4db2ec;
 }
-.box.new-post .box-head{
-    border-bottom: 2px solid  #4db2ec;
+
+.box.new-post .box-head {
+    border-bottom: 2px solid #4db2ec;
 }
-ul.list-post li{
+
+ul.list-post li {
     display: flex;
     margin-bottom: 40px;
 }
-ul.list-post .post-thumb{
+
+ul.list-post .post-thumb {
     margin-right: 20px;
 }
 
-.more-infor .post-title{
+.more-infor .post-title {
     text-decoration: none;
     font-size: 21px;
     color: black;
     font-weight: 600;
 }
-.more-infor .post-title:hover{
+
+.more-infor .post-title:hover {
     color: #4db2ec;
 }
-.more-infor .post-published{
+
+.more-infor .post-published {
     font-size: 11px;
     padding: 9px 0px;
 }
-.more-infor .post-published .author{
+
+.more-infor .post-published .author {
     color: #28231d;
     font-weight: 600;
     margin-right: 10px;
 }
-.more-infor .post-published .post-date{
+
+.more-infor .post-published .post-date {
     color: #aaaaaa;
 }
-.post-excerpt{
+
+.post-excerpt {
     font-size: 13px;
     color: #aaaaaa;
     padding-top: 10px;
 }
+
+
 /* --------------sidebar-ads------------ */
-#sidebar a.ads{
+
+#sidebar a.ads {
     display: block;
     margin-bottom: 40px;
 }
-.box.top-topic .box-head h3{
+
+.box.top-topic .box-head h3 {
     width: 178px;
     height: 28px;
     font-size: 16px;
@@ -175,96 +202,110 @@ ul.list-post .post-thumb{
     background-color: #ff2d2d;
     color: #fcfcfc;
 }
+
 .box.top-topic .box-head {
     border-bottom: 2px solid #ff2d2d;
     margin-bottom: 30px;
 }
+
+
 /* --------------quan tam chu de--------------- */
-.box.top-topic .box-body ul li{
+
+.box.top-topic .box-body ul li {
     position: relative;
 }
-.box.top-topic .box-body ul li a{
-    display:block;
+
+.box.top-topic .box-body ul li a {
+    display: block;
     color: #656565;
     padding: 7px 0px;
     font-weight: 500;
 }
-.box.top-topic .box-body ul li:hover a{
+
+.box.top-topic .box-body ul li:hover a {
     color: #ff2d2d;
     text-decoration: none;
-  
 }
-.box.top-topic .box-body ul li a span.num-post{
+
+.box.top-topic .box-body ul li a span.num-post {
     position: absolute;
-    right:25px;
+    right: 25px;
     top: 6px;
-    
 }
+
+
 /* --------------FOOTER------------ */
-#footer{
+
+#footer {
     background-color: #2e2f30;
     padding-top: 50px;
     padding-bottom: 90px;
 }
 
-#footer .box.logo-footer{
+#footer .box.logo-footer {
     width: 215px;
     padding: 45px 15px;
     margin-right: 80px;
 }
-#footer .box.about-us{
+
+#footer .box.about-us {
     width: 502px;
     padding-right: 15px;
     padding-left: 10px;
     margin-right: 90px;
     color: #f6f6f6;
 }
-#footer .box.about-us .box-header{
+
+#footer .box.about-us .box-header {
     padding-bottom: 27px;
     text-transform: uppercase;
 }
-#footer .box.about-us a{
+
+#footer .box.about-us a {
     color: #4db2ec;
 }
-#footer .box.follow-us{
+
+#footer .box.follow-us {
     width: 168px;
     padding-left: 15px;
     color: #f6f6f6;
     padding-bottom: 45px;
-    
 }
-#footer .box.follow-us h3{
+
+#footer .box.follow-us h3 {
     background: none;
     padding: 0px;
     text-transform: uppercase;
-    
 }
 
-.list-social li{
+.list-social li {
     padding-right: 10px;
 }
-.list-social a{
+
+.list-social a {
     padding: 6px 12px;
     color: #eeeeee;
     background: #434648;
 }
-#copy-write{
+
+#copy-write {
     background-color: #222527;
     color: #f3f3f3;
     height: 50px;
     padding: 16px 0px;
 }
-.footer-menu{
-   
-}
-.footer-menu li{
+
+.footer-menu {}
+
+.footer-menu li {
     margin-right: 15px;
 }
-.footer-menu li:last-child{
+
+.footer-menu li:last-child {
     margin: 0px;
 }
-.footer-menu li a{
+
+.footer-menu li a {
     color: #eeeeee;
     text-decoration: none;
-    
 }
